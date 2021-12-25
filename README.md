@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/vuepress-≥v0.9.0-3eaf7c.svg?style=popout-square)](https://vuepress.vuejs.org/)
 ![](https://img.shields.io/badge/license-MIT-blue.svg?style=popout-square)
 
-**version 1.0.0**
+
 
 > 本项目修改自 [Vuepress-comment-plugin](https://www.npmjs.com/package/vuepress-plugin-comment) 修正了无法使用valine进行文章阅读量统计的问题
 
