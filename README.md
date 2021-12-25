@@ -29,14 +29,14 @@ module.exports = {
     [
       '@sumcai/vuepress-plugin-comment',
       {
-		choosen: 'valine',
-		options: {
-		  el: '#valine-vuepress-comment',
-		  appId: 'Your own appId',
-		  appKey: 'Your own appKey',
-		  path: '<%- frontmatter.commentid || frontmatter.permalink %>',
-		  visitor: true
-		}
+        choosen: 'valine',
+        options: {
+          el: '#valine-vuepress-comment',
+          appId: 'Your own appId',
+          appKey: 'Your own appKey',
+          path: '<%- frontmatter.commentid || frontmatter.permalink %>',
+          visitor: true
+        }
       }
     ]
   ]
