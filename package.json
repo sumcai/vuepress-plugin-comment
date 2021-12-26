@@ -1,6 +1,6 @@
 {
   "name": "@sumcai/vuepress-plugin-comment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Comment plugin in vuepress, such as Gitalk, Valine...",
   "main": "index.js",
   "scripts": {

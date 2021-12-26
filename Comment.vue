@@ -22,24 +22,12 @@ export default {
       }
       clear() && needComment(frontmatter) && renderComment(frontmatter)
     }, 1000)
-
-    this.$router.afterEach((to, from) => {
-      if (to && from && to.path === from.path) {
-        return
-      }
-      const frontmatter = {
-        to,
-        from,
-        ...this.$frontmatter
-      }
-      clear() && needComment(frontmatter) && renderComment(frontmatter)
-    })
   },
 
   watch: {
     '$route' (to, from) {
+      // 切换页面时刷新
       if (to.path !== from.path) {
-        // 切换页面时刷新评论
         const frontmatter = {
           to,
           from,
